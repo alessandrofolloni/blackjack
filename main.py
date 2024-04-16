@@ -35,7 +35,7 @@ def admitted(card):
 
     if card.isdigit():
         num = float(card)
-        if num >= 2 or num <= 10:
+        if 2 <= num <= 10:
             return True
 
     return False
